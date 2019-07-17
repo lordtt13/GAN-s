@@ -1,0 +1,1 @@
+All GAN models present here have been taken either from the book by Rowel Atienza "Advanced Deep Learning" or various web sources on Advanced GAN Models 
