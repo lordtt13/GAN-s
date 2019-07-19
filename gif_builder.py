@@ -16,3 +16,8 @@ images = []
 for filename in files:
     images.append(imageio.imread(mypath+filename))
 imageio.mimsave('cgan_mnist.gif', images)
+
+with imageio.get_writer('cgan_mnist_alt.gif', mode='I') as writer:
+    for filename in files:
+        image = imageio.imread(mypath+filename)
+        writer.append_data(image)

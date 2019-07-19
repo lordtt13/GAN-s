@@ -26,7 +26,7 @@ def train(models, x_train, params):
     generator, discriminator, adversarial = models
     (batch_size, latent_size, n_critic, 
             clip_value, train_steps, model_name) = params
-    save_interval = 500
+    save_interval = 100
     noise_input = np.random.uniform(-1.0, 1.0, size=[16, latent_size])
     train_size = x_train.shape[0]
     real_labels = np.ones((batch_size, 1))
@@ -96,7 +96,7 @@ def build_and_train_models():
     clip_value = 0.01
     batch_size = 64
     lr = 5e-5
-    train_steps = 40000
+    train_steps = 20000
     input_shape = (image_size, image_size, 1)
 
     inputs = Input(shape=input_shape, name='discriminator_input')
