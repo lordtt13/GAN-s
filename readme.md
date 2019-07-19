@@ -7,5 +7,6 @@
 > vanilla_gan - Simple Convolutional GAN for mnist Data
 > dcgan - Deep Convolutional GAN
 > wgan - Higher GAN which uses Wasserstein Loss Function
+> cgan - Conditional GAN's where you can give an additional input of label and get the desired result
 
 #### More Models will be added soon!!!
