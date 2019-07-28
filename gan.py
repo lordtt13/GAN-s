@@ -111,7 +111,7 @@ def discriminator(inputs,
 def train(models, x_train, params):
     generator, discriminator, adversarial = models
     batch_size, latent_size, train_steps, model_name = params
-    save_interval = 500
+    save_interval = 100
     noise_input = np.random.uniform(-1.0, 1.0, size=[16, latent_size])
     train_size = x_train.shape[0]
     for i in range(train_steps):

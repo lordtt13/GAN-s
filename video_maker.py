@@ -8,7 +8,7 @@ Created on Fri Jul 19 17:36:03 2019
 import cv2
 import os
 
-image_folder = 'C://Users//tanma.TANMAY-STATION//Desktop//GitHub//GAN//cgan_mnist//'
+image_folder = 'C://Users//tanma.TANMAY-STATION//Desktop//GitHub//GAN//lsgan_mnist//'
 video_name = 'video.mp4'
 
 images = [img for img in os.listdir(image_folder) if img.endswith(".png")]
