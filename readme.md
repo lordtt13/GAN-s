@@ -9,5 +9,7 @@
 - wgan        - Higher GAN which uses Wasserstein Loss Function
 - cgan        - Conditional GAN's where you can give an additional input of label and get the desired result
 - lsgan       - Higher GAN, more stable, Uses MSE loss
+- infogan     - Disentagled GAN,used to differentiate and generate between features in the generated images
+- stackedgan  - Hybriidized Disentangled GAN,uses Enocders to build features that are used for generation
 
 #### More Models will be added soon!!!
