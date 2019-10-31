@@ -13,5 +13,6 @@
 - Stacked GAN                     - Hybridized Disentangled GAN,uses Enocders to build features that are used for generation
 - Auxiliary Conditional GAN       - Auxiliary Conditional GAN, same as cgan with I/O different
 - Pix2Pix                         - Instance Based Cycle GAN, used for conditioning Noise(or other images) onto Specific Images
+- Cycle GAN                       - Non mapping GAN, which can be used to learn representations between two sets of images, (~ Style Transfer)
 
 #### More Models will be added soon!!!
